@@ -1,0 +1,142 @@
+body{
+    z-index: 1;
+    background-color: #1f618d  !important;
+}
+tr,table {
+    border-collapse: collapse !important;
+    border: 1px solid rgb(87, 85, 85) !important;
+}
+table{
+    width: 70vw !important;
+    text-wrap: wrap !important;
+}
+th{
+    /* width:auto; */
+    text-wrap: wrap !important;
+}
+tr {
+    border-collapse: collapse;
+    border: 1px solid rgb(135, 132, 132); 
+    text-align: center;
+    
+}
+
+#no{
+    width: 10% !important;
+}
+
+#task {
+    width: 50% !important;
+}
+
+#deadline{
+    width: 15% !important;
+}
+
+#action {
+    width: 25% !important;
+}
+
+/* .table-secondary {
+    background-color: #e7d914;
+} */
+
+.table-primary {
+    background-color: #888383;
+    text-align: center;
+}
+
+.table-secondary {
+    background-color: rgba(7, 79, 151, 0.274);
+}
+
+#logout {
+    margin:  10px 10px;
+}
+
+.major-div{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+    
+    background-color: rgba(238, 195, 139, 0.829);
+    margin-top: 5vh;
+    border-radius: 15px;
+    overflow-y: auto;
+       
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.new-task {
+    margin: 20px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(6, 7, 7);
+    border-radius: 10px;
+    
+}
+
+.new-task-major {
+    display: none;
+}
+
+.new-task p {
+    text-align: center;
+}
+
+#add-task-btn {
+    margin-left: 10px !important;
+}
+
+.font-change {
+    font-size: 18px ;
+    }
+
+.font-change-head {
+    font-size: 25px;
+    }
+
+button{
+    margin: 10px;
+}
+
+.font-change {
+    font-size: 15px;
+    }
+
+@media (max-width: 600px){
+    .font-change {
+    font-size: 2.5vw;
+    }
+
+    .font-change-head {
+        font-size: 3.0vw;
+        }
+
+    button {
+        width: 7vw !important;
+        height: 5vw !important;
+        font-size: 1.5vw !important;
+        padding: 0 !important;
+    }
+
+    button svg {
+        font-size: 1.5vw !important;
+    }
+}
