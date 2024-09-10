@@ -141,6 +141,7 @@ app.get("/post-login/:email", async (req,res) => {
     const user = await User.findOne({email });
     const todo = await Todo.find({email});
     res.render("user.ejs", {todo, user});
+    // console.dir(req.ip);
 });
 
 app.post("/logout" , (req, res) => {
