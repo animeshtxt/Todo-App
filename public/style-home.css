@@ -2,7 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(0, 0, 0) !important;
+    background-color: rgb(251, 250, 250) !important;
+    background-image: url("https://wallpapersmug.com/download/1920x1080/c676f9/house-winter-trees-snow-layer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .user {
     display: flex;
@@ -14,18 +17,20 @@ body{
 }
 
 h1{
+    margin-top: 5vh !important;
     text-align: center;
-    color: rgba(250, 235, 215, 0.874) !important;
+    color: rgba(250, 250, 250, 0.874) !important;
 }
 
 .user-box{
     margin: 20px;
     width: 30vw;
-    border: 2px solid rgba(43, 130, 105, 0.886);
+    border: 2px solid rgba(0, 2, 1, 0.886);
     border-radius: 15px;
     padding: 10px 20px;
-    
-    background-color: rgba(6, 93, 137, 0.514);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+
+    background-color: rgba(6, 6, 89, 0.605);
 }
 
 button {
@@ -33,7 +38,7 @@ button {
 }
 
 .white {
-    color: rgba(255, 255, 255, 0.722);
+    color: rgba(255, 255, 255, 0.868);
 }
 
 
